@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  -webkit-margin-collapse: collapse collapse;
+}
+@font-face {
+  font-family: "SinkinSans";
+  src: url("C:\Users\cheve\AppData\Local\Microsoft\Windows\Fonts/SinkinSans-400Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SinkinSans";
+  font-weight: bold;
+  src: url("C:\Users\cheve\AppData\Local\Microsoft\Windows\Fonts/SinkinSans-800Black.otf")
+    format("opentype");
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff4ee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*  */
+/*  */
+/*  */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/*  */
+/*  */
+/*  */
+header {
+  height: 400px;
+  width: 100%;
+  background: url("./img/headerbg.jpg") no-repeat center center;
+  background-size: cover;
+  border-bottom: 20px solid #811f19;
+  display: flex;
+  flex-direction: column;
+}
+H1 {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 25px;
+  white-space: nowrap;
+  /* justify-self: flex-start; */
+}
+
+#logo {
+  height: 100%;
+  width: 75px;
+  margin-left: 50px;
+}
+
+.Navbar {
+  height: 85px;
+  width: 100%;
+  background-color: #811f19;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+#primary_menu {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 50px;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 7px;
+}
+#vertLine {
+  border: solid 1px white;
+  height: 26px;
+}
+#search {
+  height: 40px;
+  width: 200px;
+  margin-right: 50px;
+}
+h2 {
+  color: #811f19;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+p {
+  color: black;
+  font-size: 18px;
+}
+#Hero {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 1038px) {
+  #Hero {
+    width: 90%;
+  }
+}
+
+button {
+  background-color: #0069cb;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+/*  */
+/*  */
+/*  */
+/* MAIN */
+/* MAIN */
+/* MAIN */
+/* MAIN */
+/*  */
+/*  */
+/*  */
+.grayBG {
+  height: 136px;
+  width: 100%;
+  background-color: lightslategray;
+}
+
+.headline2 {
+  justify-content: center;
+  align-items: center;
+  background-color: #811f19;
+  height: 70px;
+  width: 100%;
+  margin: 0;
+  font-weight: 600;
+}
+/*  */
+/*  */
+/*  */
+/* NEWS CONTAINER */
+/* NEWS CONTAINER */
+/* NEWS CONTAINER */
+/*  */
+/*  */
+/*  */
+.newsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.news {
+  height: 600px;
+  width: 450px;
+  border: solid #811f19 5px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-margin-collapse: collapse;
+}
+.news img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 45px;
+}
+.news p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.specialNews {
+  width: 1020px;
+}
+.specialNews img {
+  width: 95%;
+  height: 180px;
+  border-radius: 0;
+  margin: 5px;
+}
+h3 {
+  color: #811f19;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 45px;
+}
+.news button {
+  width: 90%;
+  font-size: 24px;
+}
